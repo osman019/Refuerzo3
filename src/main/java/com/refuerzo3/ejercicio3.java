@@ -1,4 +1,4 @@
-package com.refuerzo;
+package com.refuerzo3;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,8 +10,9 @@ public class ejercicio3 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
+
         // 1. Pedir al usuario la cantidad de categorías.
-        System.out.print("Ingrese la cantidad de categorías: ");
+        System.out.print("Ingrese la cantidad de categorías por favor: ");
         int cantidadCategorias = teclado.nextInt();
         teclado.nextLine();
 
